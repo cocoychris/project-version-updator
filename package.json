@@ -1,0 +1,19 @@
+{
+  "name": "@andrash/project-version-updator",
+  "version": "1.0.0",
+  "description": "A CLI tool to update the version of a project in package.json and other files.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cocoychris/project-version-updator.git"
+  },
+  "scripts": {
+    "update-version": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "Andrash Yang",
+  "license": "MIT",
+  "packageManager": "pnpm@10.8.1",
+  "dependencies": {},
+  "devDependencies": {}
+}
