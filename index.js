@@ -65,10 +65,10 @@ function updatePackageJson() {
   // packageLockJson.version = newVersion;
   // packageLockJson.packages[''].version = newVersion;
   fs.writeFileSync(PACKAGE_JSON_PATH, JSON.stringify(packageJson, null, 2));
-  fs.writeFileSync(
-    PACKAGE_LOCK_JSON_PATH,
-    // JSON.stringify(packageLockJson, null, 2),
-  );
+  // fs.writeFileSync(
+  //   PACKAGE_LOCK_JSON_PATH,
+  //   JSON.stringify(packageLockJson, null, 2),
+  // );
 }
 
 function getCurrentVersion() {

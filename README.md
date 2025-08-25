@@ -12,7 +12,7 @@ create a script in package.json to easily run the tool:
 
 ```json
 "scripts": {
-  "update-version": "node @andrash/project-version-updator"
+  "update-version": "node node_modules/@andrash/project-version-updator"
 }
 ```
 
